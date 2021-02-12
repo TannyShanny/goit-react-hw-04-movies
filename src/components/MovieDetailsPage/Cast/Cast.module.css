@@ -1,0 +1,25 @@
+.cast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  width: 100px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid grey;
+}
+
+.style {
+  font-weight: bold;
+}

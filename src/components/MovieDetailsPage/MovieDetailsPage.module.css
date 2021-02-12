@@ -1,0 +1,35 @@
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.link {
+  max-width: 100px;
+  margin-right: 10px;
+  color: #100f0f;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid black;
+}
+
+.activeLink {
+  color: blue;
+  background-color: ;
+}
+
+button {
+  width: 50px;
+  margin: 10px;
+  outline: none;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid rgb(54, 54, 54);
+  cursor: pointer;
+}
